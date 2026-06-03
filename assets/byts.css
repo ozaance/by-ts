@@ -20,11 +20,11 @@
   --ink-faint: #444c57;
 
   /* — Hot weld arc — */
-  --arc:       #ff661a;
-  --arc-hi:    #ff8a3d;
-  --arc-core:  #ffd9b0;
-  --arc-deep:  #c63d00;
-  --arc-glow:  rgba(255,102,26,.42);
+  --arc:       #ffffff;
+  --arc-hi:    #e0e0e0;
+  --arc-core:  #ffffff;
+  --arc-deep:  #cccccc;
+  --arc-glow:  rgba(255,255,255,.25);
 
   /* — Cold inox blue — */
   --blue:      #4ea0ff;
@@ -41,6 +41,7 @@
   --r: 4px;
 
   --font-display: "Archivo", system-ui, sans-serif;
+  --font-head:    "Oswald", system-ui, sans-serif;
   --font-mono: "JetBrains Mono", ui-monospace, monospace;
 
   --ease: cubic-bezier(.22,.61,.36,1);
@@ -518,7 +519,7 @@ form.cform{ background:var(--panel); border:1px solid var(--line); border-radius
   --base-size:17px;
   --hero-img-opacity:.55;
   --grain-op:.05;
-  --font-head:var(--font-display);
+  --font-head:"Oswald", system-ui, sans-serif;
 }
 body{ font-size:var(--base-size); }
 .grain{ opacity:var(--grain-op); }
