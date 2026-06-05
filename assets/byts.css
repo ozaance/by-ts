@@ -413,10 +413,48 @@ body.menu-open .mobile-nav{ opacity:1; visibility:visible; }
    CLIENTS
    ============================================================ */
 .clients{ border-bottom:1px solid var(--line); }
-.clients-row{ display:flex; align-items:center; justify-content:space-between; gap:24px; flex-wrap:wrap; padding-block:44px; }
-.client{ font-weight:800; font-size:clamp(1.1rem,2.2vw,1.7rem); letter-spacing:.02em; color:var(--ink-3); transition:color .35s, text-shadow .35s; text-transform:uppercase; }
+
+/* --- Infinite slider --- */
+.clients-slider{
+  position:relative; overflow:hidden;
+  padding-block:44px;
+}
+.clients-track{
+  display:flex; align-items:center;
+  gap:clamp(40px,6vw,96px);
+  width:max-content;
+  animation: clientsScroll 22s linear infinite;
+}
+.clients-track:hover{ animation-play-state:paused; }
+@keyframes clientsScroll{
+  from{ transform:translateX(0); }
+  to{ transform:translateX(-50%); }
+}
+.client{
+  font-weight:800; font-size:clamp(1.1rem,2.2vw,1.7rem);
+  letter-spacing:.02em; color:var(--ink-3);
+  transition:color .35s; text-transform:uppercase;
+  white-space:nowrap; flex-shrink:0;
+}
 .client:hover{ color:var(--ink); }
-.client span{ font-family:var(--font-mono); font-size:.5em; font-weight:500; color:var(--ink-faint); display:block; letter-spacing:.12em; margin-top:2px; }
+.client-sub{
+  font-family:var(--font-mono); font-size:.5em; font-weight:500;
+  color:var(--ink-faint); display:block; letter-spacing:.12em; margin-top:2px;
+}
+
+/* Progressive blur edges */
+.clients-fade{
+  position:absolute; top:0; bottom:0; width:clamp(80px,12vw,200px);
+  z-index:2; pointer-events:none;
+}
+.clients-fade-left{
+  left:0;
+  background:linear-gradient(to right, var(--bg) 0%, transparent 100%);
+}
+.clients-fade-right{
+  right:0;
+  background:linear-gradient(to left, var(--bg) 0%, transparent 100%);
+}
 
 /* ============================================================
    CONTACT
