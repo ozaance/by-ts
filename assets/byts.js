@@ -70,7 +70,8 @@ const PROJECTS = [
     gallery:[
       ['assets/photos/mbda-1.jpg','Skid technique en cours d\'assemblage — atelier SNER'],
       ['assets/photos/mbda-2.jpg','Fabrication skid carburant, contrôle radiographique systématique'],
-      ['assets/photos/mbda-3.jpg','Vue finale skid MBDA — vannes, purgeurs, circuits fluide']
+      ['assets/photos/mbda-3.jpg','Vue finale skid MBDA — vannes, purgeurs, circuits fluide'],
+      ['assets/photos/mbda-4.jpg','Détail assemblage skid MBDA — tuyauterie et raccordements']
     ],
     desc:'Chantier le plus exigeant de notre parcours, sous maîtrise d\'ouvrage de MBDA — acteur mondial des systèmes de défense. Contrôle radiographique 100 % systématique, traçabilité totale matériaux et soudures, précision niveau défense nationale.',
     specs:[['Client','MBDA'],['Via','SNER / Socotec'],['Lieu','Gaillon · 27'],['Durée','6 mois']],
