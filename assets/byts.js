@@ -111,7 +111,7 @@ const PROJECTS = [
     id:'orly', num:'04', client:'SPAC / ADP', title:'Paris-Orly', loc:'Paris-Orly · 91',
     tags:[['Réseau kérosène enterré','arc'],['DN300 / DN150','blue'],['100 % radiographique','steel']],
     type:'Aéroportuaire',
-    cover:'assets/photos/orly-1.jpg',
+    cover:'assets/photos/orly-4.jpg',
     gallery:[
       ['assets/photos/orly-1.jpg','Vue tranchée — pipeline DN300 en cours d\'assemblage'],
       ['assets/photos/orly-3.jpg','Contrôle radiographique en tranchée — soudures certifiées'],
