@@ -111,8 +111,7 @@ const PROJECTS = [
     cover:'assets/photos/orly-3.jpg',
     gallery:[
       ['assets/photos/orly-1.jpg','Vue tranchée — pipeline DN300 en cours d\'assemblage'],
-      ['assets/photos/orly-3.jpg','Contrôle radiographique en tranchée — soudures certifiées'],
-      ['assets/photos/orly-2.jpg','Soudure gros plan DN300 — traçabilité et qualité']
+      ['assets/photos/orly-3.jpg','Contrôle radiographique en tranchée — soudures certifiées']
     ],
     desc:'Construction d\'un réseau kérosène enterré pour l\'alimentation des aéronefs à l\'aéroport de Paris-Orly. Pose et assemblage acier DN300 et DN150 avec contrôles radiographiques 100 %, en tranchées profondes et environnement aéroportuaire sécurisé.',
     specs:[['Client','SPAC / ADP'],['Lieu','Paris-Orly · 91'],['Durée','1,5 mois'],['Diamètres','DN300 / DN150']],
