@@ -91,7 +91,10 @@ const PROJECTS = [
     gallery:[
       ['assets/photos/stellantis-1.jpg','Salle des machines — pompes et tuyauterie grand diamètre'],
       ['assets/photos/stellantis-2.jpg','Liaisons extérieures tours de refroidissement — lignes inox'],
-      ['assets/photos/stellantis-3.jpg','Intégration réseau géothermique en hauteur — site en service']
+      ['assets/photos/stellantis-3.jpg','Intégration réseau géothermique en hauteur — site en service'],
+      ['assets/photos/stellantis-4.jpg','Réseau inox grand diamètre — vannes et raccordements'],
+      ['assets/photos/stellantis-5.jpg','Lignes extérieures — réseau inox et vannes papillon'],
+      ['assets/photos/stellantis-6.jpg','Salle des pompes — batterie de pompes et réseau inox']
     ],
     desc:'L\'un des chantiers les plus ambitieux de notre parcours : installation d\'un système complet de chauffage par géothermie, une première sur le site. Intervention en site industriel actif, tuyauteries grand diamètre jusqu\'à 12 pouces, pose en hauteur supérieure à 10 mètres.',
     specs:[['Client','Stellantis'],['Lieu','Caen · 14'],['Durée','~12 mois'],['Type','Géothermie']],
