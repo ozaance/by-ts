@@ -49,7 +49,10 @@ const PROJECTS = [
     gallery:[
       ['assets/photos/mersen-1.jpg','Réseau multi-fluides : pompes, vannes, tuyauteries inox'],
       ['assets/photos/mersen-2.jpg','Tuyauteries process & eau glacée posées en hauteur'],
-      ['assets/photos/mersen-3.jpg','Raccordement colonnes de filtration avec pompes']
+      ['assets/photos/mersen-3.jpg','Raccordement colonnes de filtration avec pompes'],
+      ['assets/photos/mersen-4.jpg','Installation réseau inox — site Mersen'],
+      ['assets/photos/mersen-5.jpg','Tuyauterie process — raccordements et vannes'],
+      ['assets/photos/mersen-6.jpg','Réseau industriel Mersen — vue chantier']
     ],
     desc:'Site industriel haute performance destiné aux environnements extrêmes — fours de production. Installation et raccordement de multiples réseaux de tuyauterie, niveau d\'exigence maximal en qualité de soudure et précision géométrique.',
     specs:[['Client','Mersen'],['Mandataire','Eiffage'],['Lieu','Gennevilliers · 92'],['Type','Industriel']],
