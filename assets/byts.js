@@ -138,8 +138,7 @@ const PROJECTS = [
     cover:'assets/photos/biospringer-2.jpg',
     gallery:[
       ['assets/photos/biospringer-1.jpg','Soudeur en intervention réseau inox'],
-      ['assets/photos/biospringer-2.jpg','Réseau tuyauterie inox process complet'],
-      ['assets/photos/soudure-3.jpg','Tee inox schedule 10s — soudure TIG qualité radio']
+      ['assets/photos/biospringer-2.jpg','Réseau tuyauterie inox process complet']
     ],
     desc:'Chantier en cours sur le site Biospringer, spécialisé dans la production d\'extraits de levure. Installation complète de réseaux inox fine épaisseur aux normes agroalimentaires strictes, soudure TIG sur inox sanitaire, raccordements process sur installation en production active.',
     specs:[['Client','Biospringer'],['Via','STIIM'],['Lieu','Maison-Alfort · 94'],['Durée','En cours · 5 mois+']],
