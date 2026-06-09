@@ -167,7 +167,9 @@ const GALLERY = [
   ['assets/photos/soudure-6.jpg','Soudure intérieure — inspection visuelle'],
   ['assets/photos/stellantis-2.jpg','Liaisons inox tours de refroidissement'],
   ['assets/photos/soudure-1.jpg','Détail soudure acier — contrôle radio'],
-  ['assets/photos/biospringer-1.jpg','Intervention réseau inox — Biospringer']
+  ['assets/photos/biospringer-1.jpg','Intervention réseau inox — Biospringer'],
+  ['assets/photos/flins-1.jpg','Coude 5D DN350 acier carbone — soudure en position, contrôle radiographique systématique'],
+  ['assets/photos/soudure-inox-1.jpg','Soudure TIG inox — cordon de qualité radiographique, précision exécution et propreté de passe']
 ];
 
 /* ---------- render ---------- */
